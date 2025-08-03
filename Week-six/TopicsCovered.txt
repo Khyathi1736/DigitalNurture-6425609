@@ -1,0 +1,29 @@
+HOL 1: React Introduction
+- What is React?
+- JSX, Components, Props
+- Functional vs Class Components
+- React DOM Rendering
+
+HOL 2: State and Events
+- useState Hook
+- Handling Events
+- Two-way Binding
+- Conditional Rendering Basics
+
+HOL 3: Lists and Keys
+- Rendering Lists
+- Keys in React
+- Dynamic List Rendering
+- Lists with Conditional Display
+
+HOL 4: Styling in React
+- CSS Modules
+- Inline Styling
+- Styled Components (Basics)
+- Global Styles
+
+HOL 5: Forms in React
+- Controlled Components
+- Form Submission
+- Input Handling
+- Radio, Checkbox, Select Handling

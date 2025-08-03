@@ -1,0 +1,29 @@
+HOL 6: React Router
+- Setting up React Router
+- Routes and Route Components
+- Link, NavLink
+- useParams, useNavigate
+
+HOL 7: React Hooks Deep Dive
+- useEffect Hook
+- useRef, useMemo, useCallback
+- Cleanup Functions
+- Custom Hooks (Intro)
+
+HOL 8: Conditional Rendering & Logical Operators
+- if/else in JSX
+- && and ternary usage
+- Component-level conditionals
+- Hiding/showing elements dynamically
+
+HOL 9: Component Communication
+- Props drilling
+- Lifting State Up
+- Callback Props
+- Composition vs Inheritance
+
+HOL 10: Project Setup and Structure
+- Folder Organization
+- Reusability best practices
+- Common patterns and naming
+- App Skeleton for scaling
