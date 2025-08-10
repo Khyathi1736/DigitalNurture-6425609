@@ -1,0 +1,26 @@
+# 1. Make some changes in a file (create or edit)
+echo "Temporary edit" >> readme.md
+
+# 2. Check status to see changes
+git status
+
+# 3. Stash your changes
+git stash
+
+# 4. Confirm working directory is clean
+git status
+
+# 5. Do other work or switch branches (optional)
+# For example, list branches
+git branch
+
+# 6. Apply stashed changes back
+git stash pop
+
+# 7. Check changes are back
+git status
+
+# 8. Commit and push your changes
+git add readme.md
+git commit -m "Applied stashed changes"
+git push origin main
