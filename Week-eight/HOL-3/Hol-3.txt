@@ -1,0 +1,17 @@
+# 1. Create a .gitignore file
+echo -e "*.log\ntemp/" > .gitignore
+
+# 2. Create some files and folders that should be ignored
+echo "This is a log file" > error.log
+mkdir temp
+echo "Temporary file" > temp/tempfile.txt
+
+# 3. Check Git status to see that these files are not tracked
+git status
+
+# 4. Stage and commit .gitignore only
+git add .gitignore
+git commit -m "Add .gitignore to exclude log files and temp folder"
+
+# 5. Push changes to GitHub
+git push origin main
