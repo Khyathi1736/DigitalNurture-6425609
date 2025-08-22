@@ -10,7 +10,7 @@ public class FinancialForecast {
 
         for (int i = 1; i <= years; i++) {
             balance = balance + (balance * annualRate / 100);
-            System.out.printf("%d\t₹%.2f%n", i, balance);
+            System.out.printf("%d\t%.2f%n", i, balance);
         }
     }
 
@@ -25,6 +25,7 @@ public class FinancialForecast {
 
         System.out.print("Enter number of years to forecast: ");
         int years = sc.nextInt();
+        sc.close();
 
         forecast(initialAmount, annualRate, years);
     }
